@@ -13,7 +13,11 @@ class Node:
         self.__left=left
     def setright(self,right):
         self.__right=right
+    def getval(self):
+        return self.__val
 
+    def __str__(self):
+        return str(self.__val)
 
 
 
